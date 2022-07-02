@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/*
- * main-Determing if n is positive negative or zero
+/**
+ * main-Entry point
  *
  * Description: Program will generate a random number for n
  *
