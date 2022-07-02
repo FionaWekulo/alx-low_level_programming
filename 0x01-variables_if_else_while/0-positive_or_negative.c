@@ -2,11 +2,11 @@
 #include<stdlib.h>
 #include<time.h>
 /*
- *main-Determing if n is positive negative or zero
+ * main-Determing if n is positive negative or zero
  *
- *Description: Program will generate a random number for n
+ * Description: Program will generate a random number for n
  *
- *Return:Always 0 (Success)
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
