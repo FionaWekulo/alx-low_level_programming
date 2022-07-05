@@ -2,6 +2,7 @@
 /**
  * main-Entry point
  *
+ * print_alphabet-prints the alphabet
  *
  * Return: Always (0)
  */
