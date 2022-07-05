@@ -2,9 +2,8 @@
 /**
  * main-Entry point
  *
- * Description: It prints the alphabet in lowercase followed by a new line.
  *
- * Return: Nothing
+ * Return: Always (0)
  */
 void print_alphabet(void)
 {
