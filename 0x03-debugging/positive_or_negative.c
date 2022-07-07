@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * positive_or_negative - gives sign of number
+ * main - gives sign of number
  *
  * Return: Always 0 (Success)
  */
 
-int positive_or_negative(void)
+int main(void)
 {
 int n;
 
