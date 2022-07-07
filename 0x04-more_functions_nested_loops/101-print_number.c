@@ -1,38 +1,29 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-void print_integer(int m);
-
+int _putchar(char c);
 /**
- * print_number - a function that prints an integer.
- * @n: An input integer
- * Return: Nothing
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
  */
 
 void print_number(int n)
 {
-if (n == 0)
-_putchar('0');
-else if (n < 0)
+unsigned int n1 = 0;
+if (n < 0)
 {
+n1 = -n;
 _putchar('-');
-print_integer(n * -1);
 }
 else
-print_integer(n);
-}
-
-/**
- * print_integer - A function to priting n
- * @m: an input unsigned integer
- * Return: Nothing
- */
-
-void print_integer(int m)
 {
-int i = 1000000000;
-for (; i >= 1; i /= 10)
-if (m / i != 0)
-{
-_putchar((m / i) % 10 + '0');
+n1 = n;
 }
+if (n1 / 10)
+{
+print_number(n1 / 10);
+}
+_putchar((n1 % 10) + '0');
 }
