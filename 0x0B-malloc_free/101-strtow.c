@@ -12,7 +12,7 @@ int i, k, len, start, end, j = 0;
 int words =  countWords(str);
 if (!str || !countWords(str))
 return (NULL);
-ptr = malloc(sizeof(char *) * (words));
+ptr = malloc(sizeof(char) * (words));
 if (!ptr)
 return (NULL);
 for (i = 0; i < words; i++)
